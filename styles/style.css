@@ -350,8 +350,7 @@
     grid-row: 1;
     justify-self: end;
     align-self: center;
-    margin: 0;
-    margin-block-start: 85px;
+    margin-block-start: 120px;
   }
 
   .title {
@@ -359,18 +358,19 @@
     grid-row: 2;
     justify-self: start;
     align-self: center;
-    margin: 0;
-    margin-block-end: 55px;
     overflow: visible;
     white-space: nowrap;
+    text-align: center;
+    margin-block-end: 40px;
   }
+
 
   .header__title-decor {
     grid-column: 2 / span 3;
     grid-row: 3;
     min-width: 364px;
-    margin: 0;
-    margin-inline-start: 130px;
+    margin-inline-start: 128px;
+    margin-block-end: 75px;
   }
 
   .consentration {
@@ -527,37 +527,24 @@
   }
 
   .footer {
-    position: relative;
     min-height: 100vh;
     margin-top: var(--spacing-large, 40px);
     padding: var(--spacing-medium, 20px);
   }
 
   .footer__title {
-    margin-block-start: 90px;
-    padding-inline: 5px;
-    inline-size: 100%;
+    margin-inline-start: 3px;
+    margin-block-start: 70px;
   }
 
   .footer.decorated-zone::before {
-    content: '';
-    z-index: 0;
-    border-inline-end: 1px solid var(--corner-color, #FF0070);
-    border-block-start: 1px solid var(--corner-color, #FF0070);
     inset-inline-end: var(--spacing-medium, 20px);
     inset-block-start: var(--spacing-large, 40px);
-    inline-size: var(--corner-size, 25px);
-    block-size: var(--corner-size, 25px);
   }
 
   .footer.decorated-zone::after {
-    content: '';
-    border-inline-start: 1px solid var(--corner-color, #FF0070);
-    border-block-end: 1px solid var(--corner-color, #FF0070);
     inset-block-end: 0;
     inset-inline-start: var(--spacing-medium, 20px);
-    inline-size: var(--corner-size, 25px);
-    block-size: var(--corner-size, 25px);
   }
 }
 
@@ -577,10 +564,8 @@
   }
 
   .header__theme-menu-list {
-    display: flex;
     flex-direction: row;
     gap: var(--spacing-small, 10px);
-    margin: 0;
   }
 
   .header__decor-text {
@@ -596,7 +581,7 @@
     grid-column: 1 / span 3;
     grid-row: 2;
     justify-self: center;
-    margin-block-start: 125px;
+    margin-block-start: 50px;
     padding: 0;
     font-size: var(--title-size-desktop, clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem));
     text-align: start;
@@ -607,7 +592,6 @@
     grid-row: 3;
     justify-self: end;
     align-self: start;
-    margin-block-end: var(--spacing-xl, 50px);
     max-inline-size: 491px;
   }
 
@@ -665,19 +649,15 @@
   }
 
   .footer {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     padding: 220px 250px 180px 250px;
   }
 
   .footer__title {
-    margin: 0;
-    text-align: center;
     transform: translateX(0);
     transform: translateY(0);
+    margin-inline-start: 25px;
+    margin-block-end: 40px;
   }
 
   .footer.decorated-zone::before {
