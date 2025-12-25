@@ -9,17 +9,17 @@
     <link rel="icon" href="images/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="images/mobile-icon.png" />
     <title>Сложно сосредоточиться</title>
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/dark.css" />
     <link rel="stylesheet" href="./styles/light.css" />
-    <link rel="stylesheet" href="./styles/globals.css" />
-    <link rel="stylesheet" href="./fonts/fonts.css" />
     <script src="./scripts/script.js"></script>
   </head>
   <body class="page theme-dark">
     <header class="header decorated-zone">
-      <p class="header__decor-text" aria-hidden="true">REC</p>
+      <span class="header__decor-text" aria-hidden="true">REC</span>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -47,14 +47,13 @@
       </nav>
       <h1 class="title">no focus</h1>
       <div class="header__title-decor">
-        <span class="main__text">
-          Что делать, когда не можешь делать ничего <br />
-          Или почему нам так сложно сконцентрироваться, особенно когда очень
-          надо
-        </span>
+        <div class="main__text">
+          <p>Что делать, когда не можешь делать ничего</p>
+          <p>Или почему нам так сложно сконцентрироваться, особенно когда очень
+          надо</p>
+        </div>
       </div>
     </header>
-    
     <main class="main">
       <section class="content-section consentration">
         <h2 class="section-title">Почему сосредоточиться так сложно</h2>
@@ -66,7 +65,7 @@
                 Особенно сложно сосредоточиться, когда задач много и все они — важные. 
                 Где же легендарная многозадачность, когда она так нужна вам (и всем нанимающим менеджерам этого мира)? 
                 А дело в том, что её просто не существует. 
-                Исследователи <a class="card__description decorated__word" href="https://dana.org/news-and-insights/"> выяснили</a>, что мозгу тяжело концентрироваться даже на двух делах одновременно. 
+                Исследователи <a class="card__description decorated__word" href="https://dana.org/news-and-insights/" target="_blank"> выяснили</a>, что мозгу тяжело концентрироваться даже на двух делах одновременно. 
                 А когда в поле внимания попадает несколько важных задач, организм паникует и выделяет кортизол и адреналин — «гормоны стресса». 
                 Из-за этого мы работаем невнимательно: ошибаемся и быстро устаём.
               </p>
@@ -87,8 +86,7 @@
           </li>
         </ul>
       </section>
-
-        <section class="content-section low-consentration">
+      <section class="content-section low-consentration">
         <h2 class="section-title">Что снижает концентрацию внимания?</h2>
         <ul class="characteristics__list">
           <li class="card">
@@ -127,7 +125,6 @@
           </li>
         </ul>
       </section>
-      
       <section class="content-section better-consentration">
         <h2 class="section-title">
           Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх секунд)
@@ -163,7 +160,7 @@
               <h3 class="card__description special__description">Прогуляйтесь</h3>
               <p class="card__description">
                 Или даже пробегитесь. 
-                Лучше найти парк или лес: один эксперимент <a class="card__description decorated__word" href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328"> показал</a>, что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот понижается. 
+                Лучше найти парк или лес: один эксперимент <a class="card__description decorated__word" href="https://www.sciencedirect.com/science/article/abs/pii/S0272494415000328" target="_blank"> показал</a>, что созерцание природы повышает концентрацию, в то время как после просмотра городских пейзажей она наоборот понижается. 
                 Можно совместить прогулку с физическими упражнениями или бегом — так в мозг поступит ещё больше кислорода и он будет лучше работать. 
                 Но и простая двадцатиминутная прогулка — тоже отличный вариант.
               </p>
@@ -191,61 +188,60 @@
           </li>
         </ul>
       </section>
-
       <section class="content-section images-section">
         <h2 class="card__title">
           А можно в картинках?
         </h2>
         <ul class="pics__list">
           <li class="card">
-            <article class="card__article">
+            <figure class="card__article">
               <img
-              class="image__sunset"
+              class="images image__sunset"
               src="./images/sunset.png"
               alt="Картинка заката"
               loading="lazy"
               />
-            </article>
+            </figure>
           </li>
           <li class="card">
-            <article class="card__article">
+            <figure class="card__article">
               <img
-              class="image__ice-cream"
+              class="images image__ice-cream"
               src="./images/ice-cream.png"
               alt="Картинка мороженого"
               loading="lazy"
               />
-            </article>
+            </figure>
           </li>
           <li class="card">
-            <article class="card__article">
+            <figure class="card__article">
               <img
-              class="image__tape"
+              class="images image__tape"
               src="./images/tape.png"
               alt="Картинка плеера"
               loading="lazy"
               />
-            </article>
+            </figure>
           </li>
           <li class="card">
-            <article class="card__article">
+            <figure class="card__article">
              <img
-              class="image__books"
+              class="images image__books"
               src="./images/books.png"
               alt="Картинка плеера"
               loading="lazy"
               />
-            </article>
+            </figure>
           </li>
           <li class="card">
-            <article class="card__article">
+            <figure class="card__article">
               <img
-              class="image__street"
+              class="images image__street"
               src="./images/street.png"
               alt="Картинка плеера"
               loading="lazy"
               />
-            </article>
+            </figure>
           </li>
         </ul>
       </section>
