@@ -42,38 +42,3 @@
   }
 }
 
-:root {
-  --font-family: "IBM Plex Mono", sans-serif;
-  --font-size: 18px;
-  --line-height: 23.4px;
-  --decor-line-height: 1.39;
-  --title-line-height: 83%;
-  --font-weight-normal: 400;
-  --font-weight-bold: 700;
-  
-  --title-size-mobile: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --title-size-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  
-  --spacing-xs: 6px;
-  --spacing-small: 10px;
-  --spacing-medium: 20px;
-  --spacing-large: 40px;
-  --spacing-xl: 50px;
-  
-  --min-height-mobile: 668px;
-  --decor-size: 9px;
-  --corner-size: 25px;
-  
-  --transition-duration: 0.3s;
-
-  --background-color: #000028;
-  --background-image: url("../images/cover-image-dark.png");
-  --accent-color: #FF0070;
-  --title-color: #DB00FF;
-  --text-color: #000028;
-  --corner-color: #FF0070;
-  --menu-text-color: #FF0070;
-  --menu-hover-color: rgba(255, 0, 112, 0.4);
-  --main-text-color: #F1B2CE;
-  --outline-color: #fff;
-}
