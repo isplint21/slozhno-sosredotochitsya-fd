@@ -3,13 +3,15 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  max-width: 100%;
 }
 
 body {
   min-inline-size: 375px;
   max-inline-size: 100%;
   margin: 0 auto;
-  overflow-x: hidden;
+  padding: 0;
+  position: relative;
 }
 
 h1,
@@ -39,16 +41,6 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-}
-
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
-  position: relative;
-}
-
-* {
-  max-width: 100%;
 }
 
 img {
