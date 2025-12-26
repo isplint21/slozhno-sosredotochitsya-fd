@@ -16,7 +16,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-  .page.theme-auto {
+  :root {
     --background-color: var(--background-color-light);
     --background-image: var(--background-light-theme);
     --accent-color: #FF8DCB;
@@ -29,16 +29,15 @@
     --outline-color: #353430;
   }
   
-  .theme-auto .header__decor-text {
+  .header__decor-text {
     display: none;
   }
   
-  .page.theme-auto .header__theme-menu-button:hover {
+  .header__theme-menu-button:hover {
     border: 1px solid var(--menu-hover-color, rgba(53, 52, 48, 0.4));
   }
   
-  .page.theme-auto .special__description:hover {
+  .special__description:hover {
     outline: var(--text-color, #353430);
   }
 }
-
